@@ -30,7 +30,7 @@ for j in [2..#gens] do
     cands := newcands;
 end for;
 
-// Interpret results in projective space
+// Interpret results in projective space (not essential)
 P := ProjectiveSpace(K, d);
 
 fixed_points := [];
